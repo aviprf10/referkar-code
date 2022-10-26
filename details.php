@@ -11,7 +11,7 @@ while ($row_get_servicesdetails_query = mysqli_fetch_assoc($result_get_servicesd
 {
     $servicesdetails_data_array[] = $row_get_servicesdetails_query;
 }
-
+ 
 if(count($servicesdetails_data_array) > 0)
 {
     $service_data_array = array();
