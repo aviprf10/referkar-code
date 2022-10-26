@@ -3,7 +3,7 @@ include "common/config.php";
 include "common/check_login.php";
 header('Content-type: application/json');
 if ($_POST)
-{
+{ 
    
     $name = Secure1($db_mysqli, $_POST['textname']);
     $email = Secure1($db_mysqli, $_POST['textemail']);

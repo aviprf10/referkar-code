@@ -4,7 +4,7 @@ include "common/check_login.php";
 include "common/common_code.php";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
     <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
